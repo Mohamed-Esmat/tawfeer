@@ -74,7 +74,7 @@ app.use('/api/users', userRouter);
 // setInterval(checkExpirationTime, 1000); // converting to millisecond
 
 const _dirname = path.resolve(); // Get the dirName (It return the current dir)
-app.use(express.static(path.join(_dirname, '/frontend/build'))); // It serve all files inside frontend build folder as a static files
+app.use(express.static(path.join(_dirname, '/frontend/build'))); //its a middleware It serve all files inside frontend build folder as a static files
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(_dirname, '/frontend/build/index.html')); // It means that everything that user enter after the website domain or server name is going to be served by this file (index.html)

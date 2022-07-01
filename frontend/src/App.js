@@ -91,7 +91,7 @@ function App() {
                   </Button>
 
                   <LinkContainer to="/">
-                    <Navbar.Brand>Tawfeer</Navbar.Brand>
+                    <Navbar.Brand>Tawfer</Navbar.Brand>
                   </LinkContainer>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">
@@ -158,7 +158,7 @@ function App() {
                   : 'side-navbar d-flex justify-content-between flex-wrap flex-column '
               }
             >
-              <div className="w-15 bg-dark h-100">
+              
               <Nav className="flex-column text-white w-100 p-2">
                 <Nav.Item>
                   <strong>Categories</strong>
@@ -174,7 +174,6 @@ function App() {
                   </Nav.Item>
                 ))}
               </Nav>
-              </div>
             </div>
             <main>
               <Container className="mt-4 mb-4">

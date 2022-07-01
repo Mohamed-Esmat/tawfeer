@@ -27,14 +27,6 @@
 .App-link {
   color: #61dafb;
 }
-.active-nav
-{
-  left: 0;
-  top: 0 !important;
-}
-.side-navbar{
-  top: 0;
-}
 
 @keyframes App-logo-spin {
   from {
